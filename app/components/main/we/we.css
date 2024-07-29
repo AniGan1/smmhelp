@@ -1,0 +1,32 @@
+
+#we{
+    padding-bottom: 30px;
+}
+
+#we-p{
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+#we-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.we-item{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 300px;
+}
+
+.we-ico-img{
+    max-width: 60px;
+    height: 50%;
+}
+

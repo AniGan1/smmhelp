@@ -1,0 +1,31 @@
+#footer{
+    max-width: 1240px;
+    padding: 10px 0;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#footer ul h2{
+    font-size: 20px;
+    font-weight: 565;
+    margin: 0 0 15px 0;
+}
+
+#footer li{
+    margin: 0 0 10px 0;
+}
+
+#Payment-method{
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 760px) {
+    #footer{
+        flex-direction: column;
+    }
+}

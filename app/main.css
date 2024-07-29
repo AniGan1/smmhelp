@@ -1,0 +1,40 @@
+
+body{
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 401;
+    font-style: normal;
+}
+
+a:hover  {
+    color:  #939ce7;
+}
+
+#container-wrapper{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+
+/* ------------ MAIN ----------- */
+
+#main, section, #welcome-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section{
+    gap: 30px;
+}
+
+section h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 565;
+}
+
+section h3{
+    font-size: 20px;
+    font-weight: 500;
+}

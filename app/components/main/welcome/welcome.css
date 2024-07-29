@@ -1,0 +1,58 @@
+
+#welcome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+#welcome-left{
+    padding: 60px 50px ;
+    color: white;
+    background-color: #939ce7;
+    border-radius: 10% 20%;
+
+    -webkit-box-shadow: -10px 6px 17px -3px rgba(92, 105, 202, 0.2);
+    -moz-box-shadow: -10px 6px 17px -3px rgba(92, 105, 202, 0.2);
+    box-shadow: -10px 6px 17px -3px rgba(92, 105, 202, 0.2);
+}
+
+#welcome-left h2{
+    text-align: left;
+}
+
+#welcome-img{
+    width: 450px;
+    height: 10%;
+}
+
+#btn{
+    background-color: #ffffff;
+
+    color: #939ce7;
+    width: 200px;
+    text-align: center;
+    padding: 5px 12px;
+    border-radius: 5%;
+
+    font-size: 16px;
+}
+
+
+@media (max-width: 760px) {
+    #welcome{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #welcome-left{
+        padding: 30px 30px ;
+    }
+
+    #Contacts-wrapper{
+        padding: 0 10px;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
